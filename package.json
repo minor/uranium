@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "classnames": "^2.3.1",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0"
