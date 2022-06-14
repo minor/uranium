@@ -61,7 +61,7 @@ export default function Landing() {
         <h1 className="text-lg font-semibold tracking-wide text-center text-gray-100 text-opacity-75 uppercase md:mx-10 md:text-gray-600">
           Trusted by industry leaders
         </h1>
-        <div className="w-3/5 p-6 mx-auto bg-gray-100 rounded-3xl bg-opacity-70 md:bg-opacity-100 md:p-10">
+        <div className="w-3/5 p-6 mx-auto bg-gray-100 rounded-2xl bg-opacity-70 md:bg-opacity-100 md:p-10">
           <div className="flex flex-wrap items-center justify-center flex-shrink -mt-6 -ml-6 space-x-6 space-y-6">
             <img
               className="h-5 mt-6 ml-6 md:h-8"

@@ -46,7 +46,7 @@ export default function Header() {
               <li>
                 <a
                   href="#product"
-                  className="text-lg text-white md:text-black"
+                  className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
                 >
                   Product
                 </a>
@@ -54,7 +54,7 @@ export default function Header() {
               <li>
                 <a
                   href="#demo"
-                  className="text-lg text-white md:text-black"
+                  className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
                 >
                   Demo
                 </a>
@@ -62,7 +62,7 @@ export default function Header() {
               <li>
                 <a
                   href="/"
-                  className="text-lg text-white md:text-black"
+                  className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
                 >
                   Sign in
                 </a>
