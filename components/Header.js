@@ -8,7 +8,7 @@ export default function Header() {
         <div className="flex flex-row items-center justify-between p-4">
           <a
             href="/"
-            className="text-4xl font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-red-300 to-amber-300 md:text-gray-900"
+            className="text-4xl font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-red-300 to-amber-300 md:text-gray-900"
           >
             Uranium
           </a>

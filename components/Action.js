@@ -7,7 +7,7 @@ export default function Action() {
         className="px-10 shadow-2xl py-14 md:py-32 md:text-center"
         style={{
           background:
-            'radial-gradient(circle, rgb(244, 0, 118) 21%, rgb(179, 109, 250) 67%',
+            'radial-gradient(circle, rgb(248 7 89) 21%, rgb(181 61 250) 67%',
         }}
       >
         <h1 className="mb-6 text-3xl font-semibold text-center text-white md:text-6xl">
