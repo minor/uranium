@@ -9,10 +9,9 @@ Thank you for purchasing Uranium! Please note a few things:
 3. Do not use portions of Uranium for profit – i.e. do not try to "flip" this template or use portions of the template for monetary gain.
 4. Basically: be a good soul & do not do things that could potentially hurt the sales of Uranium.
 
-## Screenshots & Videos
+## Screenshots
 
 ![Landing](/public/Landing.jpg?raw=true)
-![Full Video](/public/Full.mp4)
 
 ## How to use
 
