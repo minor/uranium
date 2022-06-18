@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Landing from '../components/Landing';
 import Features from '../components/Features';
 import Demo from '../components/Demo';
+import Pricing from '../components/Pricing';
 import Testimonies from '../components/Testimonies';
 import Action from '../components/Action';
 import Footer from '../components/Footer';
@@ -33,6 +34,7 @@ const Home: NextPage = () => {
         <Landing />
         <Features />
         <Demo />
+        <Pricing />
         <Testimonies />
         <Action />
         <Footer />

@@ -28,7 +28,7 @@ const Tweet = ({ name, position, text, photoLink, tweetLink }) => {
 
 export default function Testimonies() {
   return (
-    <div className="py-16 bg-slate-900 md:py-32">
+    <section id="testimonies" className="py-20 bg-slate-900">
       <div className="max-w-6xl mx-8 md:mx-10 lg:mx-20 xl:mx-auto">
         <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
           <div className="mb-12 space-y-5 md:mb-16 md:text-center">
@@ -142,15 +142,6 @@ export default function Testimonies() {
               <Tweet
                 name="Dan Schulman"
                 position="CEO of PayPal"
-                text="Tortor dignissim convallis aenean et tortor at. At ultrices mi tempus imperdiet nulla malesuada. Id cursus metus aliquam eleifend mi. Quis ipsum suspendisse ultrices gravida dictum fusce ut."
-                photoLink="https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_400x400.jpg"
-                tweetLink="https://twitter.com/satyanadella"
-              />
-            </li>
-            <li className="text-sm leading-6">
-              <Tweet
-                name="Satya Nadella"
-                position="CEO of Microsoft"
                 text="Quam pellentesque nec nam aliquam sem et tortor consequat id. Enim sit amet venenatis urna cursus."
                 photoLink="https://pbs.twimg.com/profile_images/516916920482672641/3jCeLgFb_400x400.jpeg"
                 tweetLink="https://twitter.com/dan_schulman"
@@ -158,24 +149,25 @@ export default function Testimonies() {
             </li>
             <li className="text-sm leading-6">
               <Tweet
-                name="Dan Schulman"
-                position="CEO of PayPal"
+                name="Satya Nadella"
+                position="CEO of Microsoft"
                 text="Tortor dignissim convallis aenean et tortor at. At ultrices mi tempus imperdiet nulla malesuada. Id cursus metus aliquam eleifend mi. Quis ipsum suspendisse ultrices gravida dictum fusce ut."
                 photoLink="https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_400x400.jpg"
                 tweetLink="https://twitter.com/satyanadella"
               />
             </li>
+            <li className="text-sm leading-6">
+              <Tweet
+                name="Dan Schulman"
+                position="CEO of PayPal"
+                text="Quam pellentesque nec nam aliquam sem et tortor consequat id. Enim sit amet venenatis urna cursus."
+                photoLink="https://pbs.twimg.com/profile_images/516916920482672641/3jCeLgFb_400x400.jpeg"
+                tweetLink="https://twitter.com/dan_schulman"
+              />
+            </li>
           </ul>
         </div>
-        {/* <div className="absolute inset-x-0 bottom-0 flex justify-center pt-32 pb-8 pointer-events-none bg-gradient-to-t from-white dark:from-slate-900">
-          <button
-            type="button"
-            className="relative flex items-center h-12 px-6 text-sm font-semibold text-white rounded-lg pointer-events-auto bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 dark:bg-slate-700 dark:hover:bg-slate-600"
-          >
-            Show more...
-          </button>
-        </div> */}
       </div>
-    </div>
+    </section>
   );
 }

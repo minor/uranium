@@ -1,229 +1,70 @@
+const Feature = ({ featureText }) => {
+  return (
+    <li className="flex">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="flex-shrink-0 w-4 h-4 mt-1.5 mr-2 text-gray-700 md:h-4 md:w-4"
+      >
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <div>{featureText}</div>
+    </li>
+  );
+};
+
 export default function Pricing() {
   return (
-    <div className="py-16 bg-gradient-to-t from-indigo-300 to-indigo-50 md:pb-48 md:pt-32">
+    <section
+      id="pricing"
+      className="py-20 md:pb-32 bg-gradient-to-t from-sky-300 to-sky-100"
+    >
       <div className="mx-8 max-w-7xl md:mx-10 lg:mx-20 xl:mx-auto">
-        <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
+        <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100 md:mb-28">
           <div className="max-w-3xl mx-auto md:text-center">
+            <div className="inline-block px-3 py-1 text-sm font-semibold text-black rounded-lg bg-[#bbd0dd] bg-opacity-60 hover:cursor-pointer hover:bg-opacity-40 mb-4">
+              Pricing for You
+            </div>
             <h2 className="mb-5 text-3xl font-semibold text-gray-800 md:text-5xl">
-              Affordable, flexible pricing plans.
+              Best of all? Affordable pricing.
             </h2>
             <p className="text-xl md:text-2xl">
-              Our product is for you, whether you're a hobbyist, a
-              team, or a large company.
+              Our products are designed to provide a high-quality
+              experiece – all at an affordable price.
             </p>
           </div>
         </div>
-        <div className="flex-col items-center space-y-6 my-14 md:mt-20 md:mb-28 md:flex">
-          <button
-            className="relative grid grid-cols-2 text-gray-800 transition-colors bg-indigo-200 border-4 border-indigo-200 rounded-full ring-1 ring-indigo-300 focus:outline-none"
-            id="headlessui-switch-2"
-            role="switch"
-            aria-checked="false"
-          >
-            <div className="z-10 px-6 py-2">Annual</div>
-            <div className="z-10 px-6 py-2">Monthly</div>
-            <div className="absolute z-0 w-1/2 h-full transition ease-in-out transform translate-x-full rounded-full shadow bg-gradient-to-t from-indigo-100 to-white"></div>
-          </button>
-        </div>
-        <div className="grid grid-cols-1 gap-10 xl:grid-cols-3">
+        <div className="grid grid-cols-1 gap-10 mt-12 md:mt-0 xl:grid-cols-3">
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
-            <div className="flex flex-col h-full p-6 space-y-4 bg-white border border-white border-opacity-50 shadow-xl undefined rounded-xl bg-opacity-40 md:space-y-6 md:p-8">
-              <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl">
-                Starter
-              </h4>
-              <h5 className="text-xl font-semibold text-gray-800">
-                <div>$19.99 / month</div>
-                <div className="p-5 mt-5 text-base text-indigo-700 bg-indigo-200 rounded-2xl">
-                  Get two months free when you switch to our annual
-                  plan!
-                </div>
-              </h5>
-              <hr className="border-t border-gray-300" />
-              <ul className="flex-grow pb-8 space-y-2 md:space-y-4 md:pb-10 md:text-lg">
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-gray-700 md:h-5 md:w-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <div>Lorem ipsum dolor sit amet.</div>
-                </li>
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-gray-700 md:h-5 md:w-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <div>Lorem ipsum dolor sit.</div>
-                </li>
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-gray-700 md:h-5 md:w-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <div>Lorem ipsum dolor, sit amet consectetur.</div>
-                </li>
-              </ul>
-              <button className="px-5 py-2 font-semibold text-gray-800 transition ease-in-out transform bg-white rounded-full shadow-md bg-opacity-40 hover:-translate-y-1 hover:bg-opacity-100 focus:outline-none">
-                Get Started
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="mb-0.5 inline h-5 w-5"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </button>
-            </div>
-          </div>
-          <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
-            <div className="flex flex-col h-full p-6 space-y-4 transform bg-white border border-white border-opacity-50 shadow-xl rounded-xl bg-opacity-80 md:space-y-6 md:p-8 xl:scale-110">
-              <div className="flex items-center justify-between">
+            <div className="flex flex-col h-full p-6 space-y-4 bg-white bg-opacity-75 border border-white border-opacity-75 shadow-xl undefined rounded-xl md:space-y-6 md:p-8">
+              <div className="flex items-center justify-center">
                 <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl">
-                  Scale
+                  Hobby
                 </h4>
-                <div className="+ inline-block rounded-xl bg-indigo-100 px-3 py-1 text-sm font-semibold text-indigo-500">
-                  Best value!
-                </div>
               </div>
-              <h5 className="text-xl font-semibold text-gray-800">
-                <div>$49.99 / month</div>
-                <div className="p-5 mt-5 text-base text-indigo-700 bg-indigo-100 rounded-2xl">
-                  Get two months free when you switch to our annual
-                  plan!
+              <h5 className="text-xl font-semibold text-center text-gray-800">
+                <div>$9 / month</div>
+                <div className="mt-4 text-base font-normal text-gray-700">
+                  For those indies working alone and trying out new
+                  things.
                 </div>
               </h5>
               <hr className="border-t border-gray-300" />
               <ul className="flex-grow pb-8 space-y-2 md:space-y-4 md:pb-10 md:text-lg">
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-indigo-500 md:h-5 md:w-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  <div>Lorem ipsum dolor sit amet.</div>
-                </li>
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-indigo-500 md:h-5 md:w-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  <div>Lorem ipsum dolor sit.</div>
-                </li>
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-indigo-500 md:h-5 md:w-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  <div>Lorem ipsum dolor, sit amet consectetur.</div>
-                </li>
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-indigo-500 md:h-5 md:w-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  <div>Lorem, ipsum dolor.</div>
-                </li>
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-indigo-500 md:h-5 md:w-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  <div>Sit amet</div>
-                </li>
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-indigo-500 md:h-5 md:w-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Similique, vitae.
-                  </div>
-                </li>
+                <Feature featureText="Convallis posuere." />
+                <Feature featureText="Sed risus pretium." />
+                <Feature featureText="Vestibulum morbi blandit." />
               </ul>
-              <button className="px-5 py-2 font-semibold text-gray-100 transition ease-in-out transform rounded-full shadow bg-gradient-to-t from-gray-800 to-gray-600 hover:-translate-y-1 hover:shadow-lg focus:outline-none">
-                Get Started
+              <button className="px-5 py-2 font-semibold text-gray-800 transition ease-in-out transform bg-white rounded-full shadow-md bg-opacity-70 hover:-translate-y-0.5 hover:bg-opacity-100 focus:outline-none">
+                Get Started{' '}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -240,160 +81,79 @@ export default function Pricing() {
             </div>
           </div>
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
-            <div className="flex flex-col h-full p-6 space-y-4 bg-white border border-white border-opacity-50 shadow-xl undefined rounded-xl bg-opacity-40 md:space-y-6 md:p-8">
-              <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl">
-                Enterprise
-              </h4>
-              <h5 className="text-xl font-semibold text-gray-800">
-                Custom price
+            <div className="flex flex-col h-full p-6 space-y-4 transform bg-white border border-white border-opacity-50 shadow-2xl rounded-xl bg-opacity-90 md:space-y-6 md:p-8 xl:scale-110">
+              <p class="absolute top-0 left-1/2 w-1/2 -translate-y-4 -translate-x-1/2 transform rounded-full bg-sky-500 py-1 px-4 text-center text-sm font-semibold text-sky-100">
+                Most preferred
+              </p>
+              <div className="flex items-center justify-center">
+                <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl">
+                  Startup
+                </h4>
+              </div>
+              <h5 className="text-xl font-semibold text-center text-gray-800">
+                <div>$49 / month</div>
+                <div className="mt-4 text-base font-normal text-gray-700">
+                  For small teams who need our product to get ahead of
+                  their work.
+                </div>
               </h5>
               <hr className="border-t border-gray-300" />
               <ul className="flex-grow pb-8 space-y-2 md:space-y-4 md:pb-10 md:text-lg">
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-gray-700 md:h-5 md:w-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <div>Lorem ipsum dolor sit amet.</div>
-                </li>
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-gray-700 md:h-5 md:w-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <div>Lorem ipsum dolor sit.</div>
-                </li>
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-gray-700 md:h-5 md:w-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <div>Lorem ipsum dolor, sit amet consectetur.</div>
-                </li>
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-gray-700 md:h-5 md:w-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <div>Lorem, ipsum dolor.</div>
-                </li>
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-gray-700 md:h-5 md:w-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <div>Sit amet</div>
-                </li>
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-gray-700 md:h-5 md:w-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Similique, vitae.
-                  </div>
-                </li>
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-gray-700 md:h-5 md:w-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <div>
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipisicing.
-                  </div>
-                </li>
-                <li className="flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    className="flex-shrink-0 w-4 h-4 mt-1 mr-2 text-gray-700 md:h-5 md:w-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <div>Consequatur, eius.</div>
-                </li>
+                <Feature featureText="Convallis posuere." />
+                <Feature featureText="Sed risus pretium." />
+                <Feature featureText="Vestibulum morbi blandit." />
+                <Feature featureText="Convallis posuere morbi leo urna." />
+                <Feature featureText="Magnis dis." />
+                <Feature featureText="Cursus risus." />
+                <Feature featureText="Convallis posuere morbi leo." />
+                <Feature featureText="Nulla malesuada pellentesque." />
               </ul>
-              <button className="px-5 py-2 font-semibold text-gray-800 transition ease-in-out transform bg-white rounded-full shadow-md bg-opacity-40 hover:-translate-y-1 hover:bg-opacity-100 focus:outline-none">
-                Contact Sales
+              <button className="px-5 py-2 font-semibold text-gray-100 transition duration-300 ease-in-out transform rounded-full shadow bg-gradient-to-t from-sky-800 to-sky-600 hover:-translate-y-1 hover:shadow-lg focus:outline-none">
+                Get Started{' '}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="mb-0.5 inline h-5 w-5"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
+            <div className="flex flex-col h-full p-6 space-y-4 bg-white bg-opacity-75 border border-white border-opacity-75 shadow-xl undefined rounded-xl md:space-y-6 md:p-8">
+              <div className="flex items-center justify-center">
+                <h4 className="text-2xl font-semibold text-gray-800 md:text-4xl">
+                  Enterprise
+                </h4>
+              </div>
+              <h5 className="text-xl font-semibold text-center text-gray-800">
+                <div>Custom Price</div>
+                <div className="mt-4 text-base font-normal text-gray-700">
+                  For bigger organizations that have a lot of people.
+                </div>
+              </h5>
+              <hr className="border-t border-gray-300" />
+              <ul className="flex-grow pb-8 space-y-2 md:space-y-4 md:pb-10 md:text-lg">
+                <Feature featureText="Convallis posuere." />
+                <Feature featureText="Sed risus pretium." />
+                <Feature featureText="Vestibulum morbi blandit." />
+                <Feature featureText="Convallis posuere morbi leo urna." />
+                <Feature featureText="Magnis dis." />
+                <Feature featureText="Cursus risus." />
+                <Feature featureText="Convallis posuere morbi leo." />
+                <Feature featureText="Nulla malesuada pellentesque." />
+                <Feature featureText="Convallis posuere." />
+                <Feature featureText="Sed risus pretium." />
+                <Feature featureText="Vestibulum morbi blandit." />
+              </ul>
+              <button className="px-5 py-2 font-semibold text-gray-800 transition ease-in-out transform bg-white rounded-full shadow-md bg-opacity-70 hover:-translate-y-0.5 hover:bg-opacity-100 focus:outline-none">
+                Contact Sales{' '}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -411,6 +171,6 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

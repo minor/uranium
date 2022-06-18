@@ -3,7 +3,7 @@ export default function Demo() {
     <section id="demo" className="py-20 bg-opacity-50 bg-emerald-50">
       <div className="mx-8 max-w-7xl md:mx-10 lg:mx-20 xl:mx-auto">
         <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
-          <div className="mb-20 space-y-5 text-left md:text-center">
+          <div className="mb-12 space-y-5 text-left md:mb-20 md:text-center">
             <div className="inline-block px-3 py-1 text-sm font-semibold rounded-lg bg-emerald-100 bg-opacity-60 text-emerald-500 hover:cursor-pointer hover:bg-opacity-80">
               Product in Action
             </div>
@@ -17,7 +17,7 @@ export default function Demo() {
           </div>
         </div>
       </div>
-      <div className="max-w-3xl px-4 mx-auto sm:px-6 lg:max-w-5xl lg:px-8">
+      <div className="max-w-3xl px-8 mx-auto sm:px-6 lg:max-w-5xl lg:px-8">
         <div className="inline-block px-3 py-1 text-sm rounded-lg bg-emerald-100 bg-opacity-60 text-emerald-500 hover:cursor-pointer hover:bg-opacity-80">
           Technology
         </div>
@@ -61,7 +61,7 @@ export default function Demo() {
           </div>
         </div>
       </div>
-      <div className="max-w-3xl px-4 mx-auto sm:px-6 sm:pt-20 lg:max-w-5xl lg:px-8">
+      <div className="max-w-3xl px-8 mx-auto sm:px-6 sm:pt-20 lg:max-w-5xl lg:px-8">
         <div className="inline-block px-3 py-1 mt-12 text-sm rounded-lg md:md-0 bg-emerald-100 bg-opacity-60 text-emerald-500 hover:cursor-pointer hover:bg-opacity-80">
           Product in Action
         </div>

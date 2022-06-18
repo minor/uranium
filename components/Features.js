@@ -2,7 +2,7 @@ export default function Features() {
   return (
     <section
       id="features"
-      className="py-16 bg-gradient-to-t from-[#524790] to-[#8c79ed] md:mt-40 md:py-24"
+      className="py-20 bg-gradient-to-t from-[#524790] to-[#8c79ed]"
     >
       <div className="mx-8 max-w-7xl md:mx-10 lg:mx-20 xl:mx-auto">
         <div className="space-y-16 md:space-y-24">
