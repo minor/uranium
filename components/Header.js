@@ -88,9 +88,9 @@ export default function Header() {
                     <path
                       stroke="currentColor"
                       d="M1.75 8H11"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      class="origin-left transition-all duration-200 opacity-0 motion-safe:-translate-x-1 group-hover:translate-x-0 group-hover:opacity-100"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      className="origin-left transition-all duration-200 opacity-0 motion-safe:-translate-x-1 group-hover:translate-x-0 group-hover:opacity-100"
                     ></path>
                   </svg>
                 </a>

@@ -72,9 +72,9 @@ export default function Pricing() {
                   className="mb-0.5 inline h-5 w-5"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
               </button>
@@ -82,7 +82,7 @@ export default function Pricing() {
           </div>
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
             <div className="flex flex-col h-full p-6 space-y-4 transform bg-white border border-white border-opacity-50 shadow-2xl rounded-xl bg-opacity-90 md:space-y-6 md:p-8 xl:scale-110">
-              <p class="absolute top-0 left-1/2 w-1/2 -translate-y-4 -translate-x-1/2 transform rounded-full bg-sky-500 py-1 px-4 text-center text-sm font-semibold text-sky-100">
+              <p className="absolute top-0 left-1/2 w-1/2 -translate-y-4 -translate-x-1/2 transform rounded-full bg-sky-500 py-1 px-4 text-center text-sm font-semibold text-sky-100">
                 Most preferred
               </p>
               <div className="flex items-center justify-center">
@@ -117,9 +117,9 @@ export default function Pricing() {
                   className="mb-0.5 inline h-5 w-5"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
               </button>
@@ -161,9 +161,9 @@ export default function Pricing() {
                   className="mb-0.5 inline h-5 w-5"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
               </button>
