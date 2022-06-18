@@ -4,35 +4,34 @@
 
 Thank you for purchasing Uranium! Please note a few things:
 
-1. The purchasing of Uranium does not include me coding your website – it is only a template for **you** to use.
-2. Unauthorized distribution of Uranium is not allowed. To clarify, you may utilize
+1. The purchasing of Uranium does not include me coding your website – it is only a template for **you** to use. This means that you must develop the website _individually_.
+2. Unauthorized distribution of Uranium is not allowed. To clarify, you may utilize this template for multiple projects (and you do not need to purchase the template again), but you may not _send_ this template to others either. Please heed this warning and ensure that only you have access to this template.
+3. Do not use portions of Uranium for profit – i.e. do not try to "flip" this template or use portions of the template for monetary gain.
+4. Basically: be a good soul & do not do things that could potentially hurt the sales of Uranium.
 
-## Screenshots
+## Screenshots & Videos
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+![Landing](/public/Landing.jpg?raw=true)
+![Full Video](/public/Full.mp4)
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+This template utilizes Next.js and TailwindCSS and is written in TypeScript. In order to get developing, please run the following things in your terminal:
 
 ```bash
+# change directory into the template
+cd uranium-template
 
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-
+# install & run
+yarn
+yarn dev
 # or
-
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-
-# or
-
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-
+npm install
+npm run dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+You can deploy this project to the cloud through [Vercel](https://vercel.com/&utm_source=uranium). You can learn more about this process in their [documentation](https://nextjs.org/docs/deployment).
 
 ## Contact
 
-If there are any questions about Uranium, please reach out to me at my [website](https://saurish.com) or through [Twitter](https://twitter.com/saurishhh).
+If there are any questions about Uranium, please reach out to me at my [website](https://saurish.com) or through Twitterd [ @saurishhh](https://twitter.com/saurishhh).
