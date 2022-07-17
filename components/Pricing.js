@@ -63,7 +63,10 @@ export default function Pricing() {
                 <Feature featureText="Sed risus pretium." />
                 <Feature featureText="Vestibulum morbi blandit." />
               </ul>
-              <button className="px-5 py-2 font-semibold text-gray-800 transition ease-in-out transform bg-white rounded-full shadow-md bg-opacity-70 hover:-translate-y-0.5 hover:bg-opacity-100 focus:outline-none">
+              <a
+                href="#"
+                className="px-5 py-2 font-semibold text-gray-800 transition ease-in-out transform bg-white rounded-full shadow-md bg-opacity-70 hover:-translate-y-0.5 hover:bg-opacity-100 focus:outline-none"
+              >
                 Get Started{' '}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -77,12 +80,12 @@ export default function Pricing() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
             <div className="flex flex-col h-full p-6 space-y-4 transform bg-white border border-white border-opacity-50 shadow-2xl rounded-xl bg-opacity-90 md:space-y-6 md:p-8 xl:scale-110">
-              <p className="absolute top-0 left-1/2 w-1/2 -translate-y-4 -translate-x-1/2 transform rounded-full bg-sky-500 py-1 px-4 text-center text-sm font-semibold text-sky-100">
+              <p className="absolute top-0 w-1/2 px-4 py-1 text-sm font-semibold text-center transform -translate-x-1/2 -translate-y-4 rounded-full left-1/2 bg-sky-500 text-sky-100">
                 Most preferred
               </p>
               <div className="flex items-center justify-center">
@@ -108,7 +111,10 @@ export default function Pricing() {
                 <Feature featureText="Convallis posuere morbi leo." />
                 <Feature featureText="Nulla malesuada pellentesque." />
               </ul>
-              <button className="px-5 py-2 font-semibold text-gray-100 transition duration-300 ease-in-out transform rounded-full shadow bg-gradient-to-t from-sky-800 to-sky-600 hover:-translate-y-1 hover:shadow-lg focus:outline-none">
+              <a
+                href="#"
+                className="px-5 py-2 font-semibold text-gray-100 transition duration-300 ease-in-out transform rounded-full shadow bg-gradient-to-t from-sky-800 to-sky-600 hover:-translate-y-1 hover:shadow-lg focus:outline-none"
+              >
                 Get Started{' '}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +128,7 @@ export default function Pricing() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
@@ -152,7 +158,10 @@ export default function Pricing() {
                 <Feature featureText="Sed risus pretium." />
                 <Feature featureText="Vestibulum morbi blandit." />
               </ul>
-              <button className="px-5 py-2 font-semibold text-gray-800 transition ease-in-out transform bg-white rounded-full shadow-md bg-opacity-70 hover:-translate-y-0.5 hover:bg-opacity-100 focus:outline-none">
+              <a
+                href="#"
+                className="px-5 py-2 font-semibold text-gray-800 transition ease-in-out transform bg-white rounded-full shadow-md bg-opacity-70 hover:-translate-y-0.5 hover:bg-opacity-100 focus:outline-none"
+              >
                 Contact Sales{' '}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -166,7 +175,7 @@ export default function Pricing() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
         </div>

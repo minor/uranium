@@ -15,7 +15,10 @@ export default function Landing() {
           </div>
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
             <div className="space-y-2">
-              <button className="px-5 py-2 font-semibold text-gray-200 duration-500 ease-in-out shadow-lg hover:-translate-y-1.5 rounded-2xl md:text-xl md:px-8 md:py-3 bg-gradient-to-br to-purple-600 from-blue-500 hover:bg-gradient-to-br hover:to-blue-500 hover:from-purple-600">
+              <a
+                href="#"
+                className="px-5 py-2 font-semibold text-gray-200 duration-500 ease-in-out shadow-lg hover:-translate-y-1.5 rounded-2xl md:text-xl md:px-8 md:py-3 bg-gradient-to-br to-purple-600 from-blue-500 hover:bg-gradient-to-br hover:to-blue-500 hover:from-purple-600"
+              >
                 Get this template{' '}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +32,7 @@ export default function Landing() {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-              </button>
+              </a>
               <div className="pt-4 text-sm text-gray-200 sm:pt-2 md:text-gray-600">
                 Modular, easy-to-edit Next.js + Tailwind template
                 <br />
