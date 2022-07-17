@@ -1,12 +1,24 @@
-# Uranium – your next SaaS website template
+<h1 align="center">
+  Uranium – your next SaaS website template
+</h1>
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+<p align="center">
+  <a href="https://www.gnu.org/licenses/gpl-3.0">
+    <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GNU GPLv3">
+  </a>
+</p>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fminor%2Furanium)
+<p align="center">
+  <a href="https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fminor%2Furanium">
+    <img src="https://vercel.com/button" alt="Deploy with Vercel">
+  </a>
+</p>
+
+<p align="center"><a href="https://www.buymeacoffee.com/gbraad" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a></p>
 
 ## Licensing
 
-Uranium *used* to be a paid template on [Gumroad](https://saurish.gumroad.com/l/uranium), but after feedback and personal thought, I've decided to make it open-source. That being said, it is distributed underneath the GNU GPLv3 license, which requires a few conditions available [here](https://choosealicense.com/licenses/gpl-3.0/). If you would like to purchase a license to bypass those conditions, please [reach out to me](#Contact).
+Uranium *used* to be a paid template on [Gumroad](https://saurish.gumroad.com/l/uranium), but after feedback and personal thought, I've decided to make it open-source. That being said, it is distributed underneath the GNU GPLv3 license, which requires a few conditions available [here](https://choosealicense.com/licenses/gpl-3.0/). If you would like to purchase a license to bypass those conditions, please [reach out to me](https://github.com/minor/uranium#contact).
 
 ## Screenshots
 
