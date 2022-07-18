@@ -34,7 +34,7 @@ This template utilizes Next.js and TailwindCSS and is written in TypeScript. In 
 
 ```bash
 # change directory into the template
-cd uranium-template
+cd uranium-master
 
 # install & run
 yarn
